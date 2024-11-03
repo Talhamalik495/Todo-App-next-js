@@ -6,7 +6,7 @@ export default async function Home() {
   });
   getData = await getData.json();
   return (
-    <div className="w-screen min-h-screen bg-red-500 flex flex-col justify-center items-center gap-10">
+    <div className="w-full min-h-screen bg-red-500 flex flex-col justify-center items-center gap-10 overflow-hidden py-14">
       <h1 className="text-3xl font-bold text-white">Todo List</h1>
       <div className=" w-[800px] flex gap-3">
         <form className="w-[800px] flex gap-3" action={addTodo}>
