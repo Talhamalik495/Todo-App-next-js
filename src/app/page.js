@@ -16,7 +16,7 @@ export default async function Home() {
             className="w-[800px] h-14 outline-none rounded-md px-2"
           />
           <input
-            className="w-32 h-14 bg-white rounded-md"
+            className="w-32 h-14 bg-white rounded-md cursor-pointer"
             type="submit"
             value={"Add Todo"}
           />
